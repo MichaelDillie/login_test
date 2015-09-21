@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="/styles/main.sass.css">
+</head>
+<body>
+
+	<nav>
+		<!-- Name -->
+
+		<div class="contact">Contact Us</div>
+		<div class="name">Name</div>
+		<input type="text" placeholder="John Doe" id="name-text">
+		<div id="name-error">Name can not be left empty</div>
+
+		<!-- Email -->
+
+		<div class="name">Email</div>
+		<input type="text" placeholder="jdoe@gmail.com" class="text-input" id="email-text">
+		<div id="email-error">Email must contain an '@'</div>
+
+		<!-- Website -->
+
+		<div class="name">Website</div>
+		<input type="text" placeholder="http://mrjohndoe.org" class="text-input" id="website-text">
+		<div id="website-error">Website must start with 'http://'</div>
+
+		<!-- Message -->
+
+		<div class="name">Mesage</div>
+		<textarea placeholder="A friendly message" id="message-text"></textarea>
+		<div id="message-error">Message can not be left empty</div>
+			<button id="submit-button"></button>
+	</nav>
+
+
+
+
+<script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/scripts/main.js"></script>
+</body>
+</html>
